@@ -1,8 +1,6 @@
 # Voice Chat
-Setting up and using Steam In-game voice with SteamCore is very easy, lets take a look at how we can achieve this!
 
-
-:::warning
+:::danger NOTE
 This voice chat functionality has been **deprecated** in favour of the SteamCore PRO voice chat functionality.
 SteamCore PRO voice chat is built into the OSS and also enables you to select Microphone Input.
 
