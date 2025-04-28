@@ -1,6 +1,14 @@
 # Voice Chat
 Setting up and using Steam In-game voice with SteamCore is very easy, lets take a look at how we can achieve this!
 
+
+:::warning
+This voice chat functionality has been **deprecated** in favour of the SteamCore PRO voice chat functionality.
+SteamCore PRO voice chat is built into the OSS and also enables you to select Microphone Input.
+
+* [SteamCore PRO Voice Chat](https://steamcore-pro.eeldev.com/docfiles/multiplayer/voice-chat/voice_chat)
+:::
+
 # PLAYERSTATE
 ![PlayerState](https://eeldev.com/wp-content/uploads/2021/04/steamcorevoiceobj-1.png)
 The PlayerState is a replicated object that exists on all clients and the server so it’s an ideal place to store data that needs to be broadcasted to all players on the server, so in this example we’re going to use a custom PlayerState object to send our Voice data to all the clients.
