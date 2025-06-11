@@ -30,7 +30,7 @@ DefaultPlatformService=Steam
 
 [/Script/Engine.Engine]
 !NetDriverDefinitions=ClearArray
-+NetDriverDefinitions=(DefName="GameNetDriver",DriverClassName="SteamSockets.SteamSocketsNetDriver",DriverClassNameFallback="OnlineSubsystemUtils.IpNetDriver")
++NetDriverDefinitions=(DefName="GameNetDriver",DriverClassName="/Script/SteamSockets.SteamSocketsNetDriver",DriverClassNameFallback="/Script/OnlineSubsystemUtils.IpNetDriver")
 
 [/Script/OnlineSubsystemUtils.IpNetDriver]
 MaxClientRate=1000000000
