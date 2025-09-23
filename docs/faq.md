@@ -16,7 +16,4 @@ If you’re using a Dedicated Server setup you have to [authenticate the player]
 ## Where can I find my game log files?
 Log files are generated in X:\Project\Saved\Logs
 The newest logfile will be called Project.log
-If you are running a Standalone Instance the log file will be named Project_2.log   
-
-## Plugin "SteamCore" failed to load because module "SteamFix" could not be found.
-- [See this documentation](./docfiles/steamfix.md) 
+If you are running a Standalone Instance the log file will be named Project_2.log
